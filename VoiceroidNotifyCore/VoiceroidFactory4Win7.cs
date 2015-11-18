@@ -23,6 +23,13 @@ namespace saga.voiceroid
                 "音声ファイルの保存", 180, 9, 7, 35, 3, 19);
         }
          * */
+        
+        public static VoiceroidInfo CreateMakiEx()
+        {
+            return new VoiceroidInfo(VoiceroidType.MakiEx, SystemType.Type2, "VOICEROID＋ 民安ともえ EX",
+                "音声ファイルの保存", 180, 9, 12, 14, 35, 3, 19);
+        }
+
         public static VoiceroidInfo CreateAkane()
         {
             return new VoiceroidInfo(VoiceroidType.Akane, SystemType.Type2, "VOICEROID＋ 琴葉茜",
@@ -43,6 +50,8 @@ namespace saga.voiceroid
                     return CreateYukariEx();
                 //case VoiceroidType.Maki:
                 //    return CreateMaki();
+                case VoiceroidType.MakiEx:
+                    return CreateMakiEx();
                 case VoiceroidType.Akane:
                     return CreateAkane();
                 case VoiceroidType.Aoi:

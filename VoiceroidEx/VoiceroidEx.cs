@@ -30,6 +30,7 @@ namespace saga.voiceroid
 				// インスタンス化
                 //VoiceroidInfo info = VoiceroidFactory4Win7.CreateAoi();
                 //VoiceroidInfo info = VoiceroidFactory4Win7.CreateAkane();
+                //VoiceroidInfo info = VoiceroidFactory4Win7.CreateMakiEx();
                 VoiceroidInfo info = VoiceroidFactory4Win7.Create(ri.GetVoiceroidType());
                 VoiceroidNotify voiceroid = new VoiceroidNotify4Win7("dic/ipadic", info);
 

@@ -9,6 +9,7 @@ namespace saga.voiceroid
         Yukari,
         YukariEx,
         //Maki,
+        MakiEx,
         Akane,
         Aoi
     }
